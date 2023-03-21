@@ -96,6 +96,7 @@ header {
 .main-content {
   width: 1024px;
   border: 1px solid rgb(211, 211, 211);
+  padding: 0px 20px;
   display: flex;
   flex-direction: row;
 }
@@ -103,6 +104,9 @@ header {
 #body-3 {
   justify-content: space-between;
   align-items: center;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 #introduce-1 {
@@ -148,4 +152,56 @@ footer {
 
 #body-3 .item-text {
   margin: 15px 15px 15px 0px;
+}
+
+#body-4 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#body-4 .home-main-image-03 {
+  background-size: 526px 735px;
+  width: 526px;
+  height: 735px;
+}
+
+#body-4 div {
+  display: inline-block;
+  align-items: center;
+}
+
+#body-4 .home-buttons .home-button {
+  background-color: #f1f3f5;
+  color: #212529;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: inline-block;
+}
+
+#body-4 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#body-4 .home-main-image-03 {
+  background-size: 526px 735px;
+  width: 526px;
+  height: 735px;
+}
+
+#body-4 div {
+  display: inline-block;
+  align-items: center;
+}
+
+#body-4 .home-buttons .home-button {
+  background-color: #f1f3f5;
+  color: #212529;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: inline-block;
 }
