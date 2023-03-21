@@ -96,6 +96,13 @@ header {
 .main-content {
   width: 1024px;
   border: 1px solid rgb(211, 211, 211);
+  display: flex;
+  flex-direction: row;
+}
+
+#body-3 {
+  justify-content: space-between;
+  align-items: center;
 }
 
 #introduce-1 {
@@ -113,4 +120,32 @@ header {
 
 footer {
   height: 800px;
+}
+
+.image-container .background-image {
+  width: 526px;
+  height: 735px;
+}
+
+.home-story-list {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.item-icon {
+  margin: 30px 10px 0px 0px;
+}
+
+.item-title {
+  margin: 15px 0px;
+  font-weight: bold;
+}
+
+.item-text {
+  margin: 15px 15px 15px 0px;
 }
