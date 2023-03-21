@@ -212,7 +212,7 @@ footer {
   font-size: 13px;
 }
 
-.text-m {
+#body-item-list .text-m {
   font-size: 1.6rem !important;
   font-weight: bold;
   line-height: 1.5;
