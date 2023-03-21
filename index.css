@@ -122,30 +122,30 @@ footer {
   height: 800px;
 }
 
-.image-container .background-image {
+#body-3 .image-container .background-image {
   width: 526px;
   height: 735px;
 }
 
-.home-story-list {
+#body-3 .home-story-list {
   display: flex;
   flex-direction: row;
 }
 
-ul {
+#body-3 ul {
   list-style: none;
   padding-left: 0px;
 }
 
-.item-icon {
+#body-3 .item-icon {
   margin: 30px 10px 0px 0px;
 }
 
-.item-title {
+#body-3 .item-title {
   margin: 15px 0px;
   font-weight: bold;
 }
 
-.item-text {
+#body-3 .item-text {
   margin: 15px 15px 15px 0px;
 }
