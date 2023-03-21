@@ -205,3 +205,75 @@ footer {
   padding: 15px 20px;
   display: inline-block;
 }
+
+#body-1 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#body-1 .img1 {
+  width: 720px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#body-1 .titletext {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#body-1 .introtext {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+#body-1 .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin-left: 30px;
+}
+
+#body-2 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#body-2 .img2 {
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#body-2 .titletext {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#body-2 .introtext {
+  font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#body-2 .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin-right: 30px;
+}
+#body-2 .highlight {
+  display: flex;
+  flex-direction: row;
+}
+
+#body-2 .highlight div {
+  background-color: #f1f3f5;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 1em 1em;
+}
